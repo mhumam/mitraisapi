@@ -79,7 +79,7 @@ module.exports = {
             }
 
             /* Response */
-            res.status(400).send({
+            res.status(responseCode).send({
                 status: {
                     code: responseCode,
                     message: responseMessage
